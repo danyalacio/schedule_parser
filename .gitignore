@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+parser/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Данные расписания (хранятся локально)
+Tables/*.xlsx
+Tables/*.xls
+normalized/*.xlsx
+normalized/*.xls
+
+# Сгенерированный SQL-дамп с данными
+create.sql
+
+# IDE
+.idea/
+.vscode/
+*.swp
